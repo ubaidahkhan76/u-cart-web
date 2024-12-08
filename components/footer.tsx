@@ -26,7 +26,7 @@ export default function Footer() {
                     <Link href="/">About Us</Link>
                 </ul>
                 <ul className="p-1 text-lg hover:font-bold">
-                    <Link href="/">Career's at U-Cart</Link>
+                    <Link href="/">Career at U-Cart</Link>
                 </ul>
                 <ul className="p-1 text-lg hover:font-bold">
                     <Link href="/">Corporate responsibility</Link>
