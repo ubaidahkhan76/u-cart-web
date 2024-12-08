@@ -72,7 +72,7 @@ export default function HotDeals() {
                         height={300}
                         width={400}
                         className="rounded-xl w-full h-[36vh]" />
-                    <h1 className="text-2xl sm:text-2xl md:text-xl lg:text-2xl xl:text-2xl p-1">"Silver Necklace S12. Stylish Design Adjustable Chain.</h1>
+                    <h1 className="text-2xl sm:text-2xl md:text-xl lg:text-2xl xl:text-2xl p-1">Silver Necklace S12. Stylish Design Adjustable Chain.</h1>
                     <h1 className="text-blue-600 p-1 text-2xl">Rs:960</h1>
                     <div className="dicount flex gap-2">
                         <h1 className="p-1 text-gray-500 text-2xl line-through">Rs:1200</h1>
