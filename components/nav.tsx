@@ -16,9 +16,9 @@ export default function Nav() {
 
   const menuItems = [
     { name: "Home", href: "/" },
-    { name: "Categories", href: "/mobiles" },
-    { name: "Discount", href: "/mobiles" },
-    { name: "Wishlist", href: "/mobiles" },
+    { name: "Categories", href: "/mobileCategories" },
+    { name: "Discount", href: "/discount" },
+    { name: "Wishlist", href: "/whislist" },
     { name: "Cart", href: "/mobiles" },
   ];
 
@@ -37,8 +37,8 @@ export default function Nav() {
         />
         <div className="hidden lg:flex items-center gap-10">
           <RiAccountBoxFill className="cursor-pointer" size={30} />
-          <FaRegHeart className="cursor-pointer" size={30} />
-          <MdOutlineShoppingCart className="cursor-pointer" size={30} />
+          <Link href="/whislist"><FaRegHeart className="cursor-pointer" size={30} /></Link>
+          <Link href="/cart"><MdOutlineShoppingCart className="cursor-pointer" size={30} /></Link>
         </div>
         <div className="lg:hidden" onClick={toggleMenu}>
           {isMenuOpen ? (
@@ -61,8 +61,8 @@ export default function Nav() {
           ))}
         </ul>
       </div>
-      <div>
-        <h1 className="p-2 text-center bg-green-500 mt-[12vh] sm:mt-[10vh] md:mt-[12vh] lg:mt-[10vh] xl:mt-[10vh] py-3 font-bold cursor-pointer">
+      <div className="">
+        <h1 className="p-3 sm:p-3 md:p-4 lg:p-4 xl:p-4 hover:text-white text-center bg-green-500 mt-[12vh] sm:mt-[10vh] md:mt-[12vh] lg:mt-[12vh] xl:mt-[10vh]  font-bold cursor-pointer">
           THE UP-TO-20%-OFF ON WINTER SEASON
         </h1>
       </div>

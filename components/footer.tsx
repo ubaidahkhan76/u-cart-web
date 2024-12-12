@@ -9,45 +9,45 @@ export default function Footer() {
             </div>
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row">
             <div className="text-center w-full sm:w-full md:w-full lg:w-1/4 xl:w-1/4 py-12">
-                <h1 className="p-4 text-2xl">HELP & INFORMATION</h1>
-                <ul className="p-1 text-lg hover:font-bold">
+                <h1 className="p-4 font-bold text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl">HELP & INFORMATION</h1>
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Help</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Track orders</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Delivery & returns</Link>
                 </ul>
             </div>
             <div className="text-center w-full sm:w-full md:w-full lg:w-2/4 xl:w-2/4 py-12">
-                <h1 className="p-4 text-2xl">ABOUT U-CART</h1>
-                <ul className="p-1 text-lg hover:font-bold">
+                <h1 className="p-4 font-bold text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl">ABOUT U-CART</h1>
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">About Us</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Career at U-Cart</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Corporate responsibility</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Investers</Link>
                 </ul>
             </div>
             <div className="text-center hidden sm:block w-full sm:w-full md:w-full lg:w-1/4 xl:w-1/4 py-12">
-                <h1 className="p-4 text-2xl">MORE FROM U-CART</h1>
-                <ul className="p-1 text-lg hover:font-bold">
+                <h1 className="p-4 font-bold text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl">MORE FROM U-CART</h1>
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Mobile and U-Cart apps</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">U-Cart marketplace</Link>
                 </ul>
-                <ul className="p-1 text-lg hover:font-bold">
-                    <Link href="/">Gift vouchers</Link>
-                </ul>
-                <ul className="p-1 text-lg hover:font-bold">
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
                     <Link href="/">Discovers the U-Cart credit card</Link>
+                </ul>
+                <ul className="p-1 text-md sm:text-md md:text-lg lg:text-lg xl:text-lg hover:font-bold">
+                    <Link href="/">Gift vouchers</Link>
                 </ul>
             </div>
             </div>
