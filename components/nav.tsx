@@ -6,6 +6,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import React, { useState } from "react";
 import Slider from "./slider";
 import Link from "next/link"; 
+import Banner from "./banner";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +25,7 @@ export default function Nav() {
 
   return (
     <div>
-      <div className="navBar fixed top-0 left-0 w-full shadow-md z-10 flex justify-between items-center bg-gray-800 text-white py-4 px-4 md:px-8">
+      <div className="navBar fixed top-0 left-0 w-full shadow-md z-10 flex justify-between items-center bg-gray-800 text-white py-3 px-4 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold cursor-pointer">
           <Link href="/">U-Cart</Link>
         </h1>
@@ -61,11 +62,7 @@ export default function Nav() {
           ))}
         </ul>
       </div>
-      <div className="">
-        <h1 className="p-3 sm:p-3 md:p-4 lg:p-4 xl:p-4 hover:text-white text-center bg-green-500 mt-[12vh] sm:mt-[10vh] md:mt-[12vh] lg:mt-[12vh] xl:mt-[10vh]  font-bold cursor-pointer">
-          THE UP-TO-20%-OFF ON WINTER SEASON
-        </h1>
-      </div>
+      <Banner/>
       <Slider />
     </div>
   );
