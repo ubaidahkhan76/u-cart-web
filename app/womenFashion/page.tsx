@@ -51,7 +51,7 @@ export default function WomensFashion() {
                         width={400}
                         height={300}
                         className="rounded-xl  w-full h-[36vh]" />
-                    <h1 className="line-clamp-2 text-xl sm:text-1xl md:text-xl lg:text-1xl xl:text-1xl">"Women Sandals crafted for style, comfort, and elegance</h1>
+                    <h1 className="line-clamp-2 text-xl sm:text-1xl md:text-xl lg:text-1xl xl:text-1xl">Women Sandals crafted for style, comfort, and elegance</h1>
                     <h1 className="py-2 text-xl sm:text-1xl md:text-xl lg:text-1xl xl:text-1xl text-blue-600">Rs:1600</h1>
                     <div className="discount flex gap-2">
                         <h1 className="text-xl sm:text-1xl md:text-xl lg:text-1xl xl:text-1xl text-gray-500 line-through">Rs:2000</h1>
